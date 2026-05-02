@@ -1,0 +1,26 @@
+[
+  {
+    "upgrade_id": 1,
+    "upgrade_name": "Plant Trees",
+    "pollution_reduction": 5.0,
+    "cost_points": 50
+  },
+  {
+    "upgrade_id": 2,
+    "upgrade_name": "Install Solar Panels",
+    "pollution_reduction": 10.0,
+    "cost_points": 120
+  },
+  {
+    "upgrade_id": 3,
+    "upgrade_name": "Build Recycling Center",
+    "pollution_reduction": 8.0,
+    "cost_points": 90
+  },
+  {
+    "upgrade_id": 4,
+    "upgrade_name": "Clean River",
+    "pollution_reduction": 6.0,
+    "cost_points": 70
+  }
+]
