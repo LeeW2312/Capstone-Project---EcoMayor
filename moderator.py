@@ -26,8 +26,6 @@ def _next_id(records, id_field):
     return max(r[id_field] for r in records) + 1
 
 
-# ── Quiz Management ───────────────────────────────────────
-
 def add_quiz(moderator_id, quiz_title):
     quizzes  = _load_json(QUIZ_FILE)
     new_quiz = {
@@ -46,13 +44,12 @@ def get_all_questions():
     all_q   = []
     for quiz in quizzes:
         for q in quiz["questions"]:
-            q["quiz_id"] = quiz["quiz_id"]
-            all_q.append(q)
+            all_q.append({**q, "quiz_id": quiz["quiz_id"]})
     return all_q
 
 def add_question(quiz_id, question_text, answers):
-    correct_count = sum(1 for a in answers if a.get("is_correct"))
-    if correct_count != 1:
+    correct = sum(1 for a in answers if a.get("is_correct"))
+    if correct != 1:
         raise ValueError("Exactly one answer must be correct.")
     if len(answers) < 2:
         raise ValueError("Need at least 2 answers.")
@@ -107,9 +104,6 @@ def edit_question(quiz_id, question_id, new_text=None, new_answers=None):
     _save_json(QUIZ_FILE, quizzes)
     return question
 
-
-# ── Item (Upgrade) Management ─────────────────────────────
-
 def add_upgrade(upgrade_name, pollution_reduction, cost_points):
     if pollution_reduction <= 0:
         raise ValueError("Reduction must be > 0.")
@@ -136,7 +130,8 @@ def get_upgrades():
 def update_upgrade(upgrade_id, new_name=None,
                    new_pollution_reduction=None, new_cost_points=None):
     upgrades = _load_json(UPGRADE_FILE)
-    upgrade  = next((u for u in upgrades if u["upgrade_id"] == upgrade_id), None)
+    upgrade  = next((u for u in upgrades
+                     if u["upgrade_id"] == upgrade_id), None)
     if not upgrade:
         raise ValueError(f"Upgrade {upgrade_id} not found.")
     if new_name:

@@ -3,18 +3,65 @@
     "user_id": 1,
     "username": "player1",
     "password": "1234",
-    "role": "Player"
+    "role": "Player",
+    "stats": {
+      "seasons_played": 1,
+      "best_score": 0,
+      "total_points": 0,
+      "total_correct": 0
+    },
+    "last_pollution": 100.0,
+    "difficulty": "medium",
+    "volume": 50,
+    "sound_on": true,
+    "xp": 0,
+    "level": 1,
+    "pollution_history": [
+      100.0,
+      100.0,
+      100.0
+    ]
   },
   {
     "user_id": 2,
     "username": "mod1",
     "password": "1234",
-    "role": "Moderator"
+    "role": "Moderator",
+    "last_pollution": 100.0
   },
   {
     "user_id": 3,
     "username": "admin1",
     "password": "1234",
-    "role": "Admin"
+    "role": "Admin",
+    "last_pollution": 100.0
+  },
+  {
+    "user_id": 4,
+    "username": "chessman",
+    "password": "1234",
+    "role": "Player",
+    "banned": false,
+    "stats": {
+      "seasons_played": 0,
+      "best_score": 0,
+      "total_points": 0,
+      "total_correct": 0
+    },
+    "last_pollution": 100.0
+  },
+  {
+    "user_id": 5,
+    "username": "player2",
+    "password": "1234",
+    "role": "Player",
+    "banned": false,
+    "stats": {
+      "seasons_played": 0,
+      "best_score": 0,
+      "total_points": 0,
+      "total_correct": 0
+    },
+    "last_pollution": 70.0
   }
 ]
