@@ -1,0 +1,14 @@
+{
+  "season_duration": 30,
+  "starting_pollution": 100,
+  "goal_pollution": 50,
+  "rise_easy": 0.5,
+  "rise_medium": 1.0,
+  "rise_hard": 2.0,
+  "mult_easy": 0.75,
+  "mult_medium": 1.0,
+  "mult_hard": 1.5,
+  "bonus_win": 100,
+  "pts_per_correct": 20,
+  "quiz_per_session": 5
+}

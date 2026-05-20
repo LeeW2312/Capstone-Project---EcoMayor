@@ -1,1 +1,170 @@
-[]
+[
+  {
+    "ts": "2026-05-20 20:01:19",
+    "username": "player1",
+    "action": "LOGIN",
+    "detail": "Role: player"
+  },
+  {
+    "ts": "2026-05-20 20:01:34",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:01:50",
+    "username": "mod1",
+    "action": "LOGIN",
+    "detail": "Role: moderator"
+  },
+  {
+    "ts": "2026-05-20 20:02:07",
+    "username": "mod1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:08",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:09",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:10",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:10",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:11",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:11",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:11",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:23",
+    "username": "player1",
+    "action": "LOGIN",
+    "detail": "Role: player"
+  },
+  {
+    "ts": "2026-05-20 20:02:25",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:49",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:02:50",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:04:43",
+    "username": "admin1",
+    "action": "LOGIN",
+    "detail": "Role: admin"
+  },
+  {
+    "ts": "2026-05-20 20:05:02",
+    "username": "admin1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:05:09",
+    "username": "mod1",
+    "action": "LOGIN",
+    "detail": "Role: moderator"
+  },
+  {
+    "ts": "2026-05-20 20:05:26",
+    "username": "mod1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:05:34",
+    "username": "player1",
+    "action": "LOGIN",
+    "detail": "Role: player"
+  },
+  {
+    "ts": "2026-05-20 20:40:02",
+    "username": "player1",
+    "action": "LOGIN",
+    "detail": "Role: player"
+  },
+  {
+    "ts": "2026-05-20 20:40:02",
+    "username": "player1",
+    "action": "SEASON_END",
+    "detail": "LOSE | 100.0% | 0pts"
+  },
+  {
+    "ts": "2026-05-20 20:40:13",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:40:21",
+    "username": "player1",
+    "action": "LOGIN",
+    "detail": "Role: player"
+  },
+  {
+    "ts": "2026-05-20 20:40:21",
+    "username": "player1",
+    "action": "SEASON_END",
+    "detail": "LOSE | 100.0% | 0pts"
+  },
+  {
+    "ts": "2026-05-20 20:45:35",
+    "username": "player1",
+    "action": "LOGOUT",
+    "detail": ""
+  },
+  {
+    "ts": "2026-05-20 20:45:41",
+    "username": "mod1",
+    "action": "LOGIN",
+    "detail": "Role: moderator"
+  },
+  {
+    "ts": "2026-05-20 20:46:08",
+    "username": "mod1",
+    "action": "LOGOUT",
+    "detail": ""
+  }
+]

@@ -1,67 +1,91 @@
 [
   {
-    "user_id": 1,
-    "username": "player1",
-    "password": "1234",
-    "role": "Player",
-    "stats": {
-      "seasons_played": 1,
-      "best_score": 0,
-      "total_points": 0,
-      "total_correct": 0
-    },
-    "last_pollution": 100.0,
+    "username": "admin1",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "admin",
+    "status": "active",
+    "seasons_played": 0,
+    "seasons_won": 0,
+    "best_score": 0,
+    "pollution": 100.0,
+    "points": 0,
+    "day": 1,
     "difficulty": "medium",
-    "volume": 50,
-    "sound_on": true,
     "xp": 0,
     "level": 1,
+    "level_title": "Eco Newcomer",
+    "total_correct": 0,
+    "achievements": {},
     "pollution_history": [
-      100.0,
-      100.0,
       100.0
-    ]
+    ],
+    "upgrades_bought": [],
+    "warnings": 0,
+    "display_name": "admin1",
+    "sound": true,
+    "volume": 75,
+    "season_start_date": "",
+    "last_active_date": ""
   },
   {
-    "user_id": 2,
     "username": "mod1",
-    "password": "1234",
-    "role": "Moderator",
-    "last_pollution": 100.0
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "moderator",
+    "status": "active",
+    "seasons_played": 0,
+    "seasons_won": 0,
+    "best_score": 0,
+    "pollution": 100.0,
+    "points": 0,
+    "day": 1,
+    "difficulty": "medium",
+    "xp": 0,
+    "level": 1,
+    "level_title": "Eco Newcomer",
+    "total_correct": 0,
+    "achievements": {},
+    "pollution_history": [
+      100.0
+    ],
+    "upgrades_bought": [],
+    "warnings": 0,
+    "display_name": "mod1",
+    "sound": true,
+    "volume": 75,
+    "season_start_date": "",
+    "last_active_date": ""
   },
   {
-    "user_id": 3,
-    "username": "admin1",
-    "password": "1234",
-    "role": "Admin",
-    "last_pollution": 100.0
-  },
-  {
-    "user_id": 4,
-    "username": "chessman",
-    "password": "1234",
-    "role": "Player",
-    "banned": false,
-    "stats": {
-      "seasons_played": 0,
-      "best_score": 0,
-      "total_points": 0,
-      "total_correct": 0
+    "username": "player1",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "player",
+    "status": "active",
+    "seasons_played": 2,
+    "seasons_won": 0,
+    "best_score": 0,
+    "pollution": 100.0,
+    "points": 40,
+    "day": 1,
+    "difficulty": "medium",
+    "xp": 60,
+    "level": 1,
+    "level_title": "Eco Newcomer",
+    "total_correct": 2,
+    "achievements": {
+      "season_starter": true,
+      "first_step": true,
+      "quick_start": true,
+      "getting_started": true
     },
-    "last_pollution": 100.0
-  },
-  {
-    "user_id": 5,
-    "username": "player2",
-    "password": "1234",
-    "role": "Player",
-    "banned": false,
-    "stats": {
-      "seasons_played": 0,
-      "best_score": 0,
-      "total_points": 0,
-      "total_correct": 0
-    },
-    "last_pollution": 70.0
+    "pollution_history": [
+      100.0
+    ],
+    "upgrades_bought": [],
+    "warnings": 0,
+    "display_name": "player1",
+    "sound": true,
+    "volume": 75,
+    "season_start_date": "2026-05-20",
+    "last_active_date": "2026-05-20"
   }
 ]

@@ -1,114 +1,47 @@
 [
   {
-    "quiz_id": 1,
-    "quiz_title": "Environmental Awareness Quiz",
-    "created_by": 2,
-    "created_at": "2026-05-01 10:00:00",
-    "questions": [
-      {
-        "question_id": 1,
-        "question_text": "What is the main cause of air pollution in cities?",
-        "answers": [
-          {
-            "answer_id": 1,
-            "answer_text": "Factories and vehicles",
-            "is_correct": true
-          },
-          {
-            "answer_id": 2,
-            "answer_text": "Rainfall",
-            "is_correct": false
-          },
-          {
-            "answer_id": 3,
-            "answer_text": "Trees",
-            "is_correct": false
-          },
-          {
-            "answer_id": 4,
-            "answer_text": "Sunlight",
-            "is_correct": false
-          }
-        ]
-      },
-      {
-        "question_id": 2,
-        "question_text": "Which action helps reduce water pollution?",
-        "answers": [
-          {
-            "answer_id": 1,
-            "answer_text": "Proper waste disposal",
-            "is_correct": true
-          },
-          {
-            "answer_id": 2,
-            "answer_text": "Dumping waste in rivers",
-            "is_correct": false
-          },
-          {
-            "answer_id": 3,
-            "answer_text": "Using more plastic bags",
-            "is_correct": false
-          },
-          {
-            "answer_id": 4,
-            "answer_text": "Burning garbage",
-            "is_correct": false
-          }
-        ]
-      },
-      {
-        "question_id": 3,
-        "question_text": "What does planting trees help reduce?",
-        "answers": [
-          {
-            "answer_id": 1,
-            "answer_text": "Air pollution",
-            "is_correct": true
-          },
-          {
-            "answer_id": 2,
-            "answer_text": "Water levels",
-            "is_correct": false
-          },
-          {
-            "answer_id": 3,
-            "answer_text": "Electricity usage",
-            "is_correct": false
-          },
-          {
-            "answer_id": 4,
-            "answer_text": "Soil minerals",
-            "is_correct": false
-          }
-        ]
-      },
-      {
-        "question_id": 4,
-        "question_text": "Which energy source is most eco-friendly?",
-        "answers": [
-          {
-            "answer_id": 1,
-            "answer_text": "Solar power",
-            "is_correct": true
-          },
-          {
-            "answer_id": 2,
-            "answer_text": "Coal",
-            "is_correct": false
-          },
-          {
-            "answer_id": 3,
-            "answer_text": "Diesel",
-            "is_correct": false
-          },
-          {
-            "answer_id": 4,
-            "answer_text": "Natural gas",
-            "is_correct": false
-          }
-        ]
-      }
+    "question": "What is the main cause of air pollution in cities?",
+    "correct": "Factories and vehicles",
+    "wrong": [
+      "Rainfall",
+      "Trees",
+      "Sunlight"
+    ]
+  },
+  {
+    "question": "Which action helps reduce water pollution?",
+    "correct": "Proper waste disposal",
+    "wrong": [
+      "Burning fossil fuels",
+      "Using more plastic",
+      "Littering"
+    ]
+  },
+  {
+    "question": "What does planting trees help reduce?",
+    "correct": "Air pollution",
+    "wrong": [
+      "Water levels",
+      "Sunlight",
+      "Wind speed"
+    ]
+  },
+  {
+    "question": "Which energy source is most eco-friendly?",
+    "correct": "Solar power",
+    "wrong": [
+      "Coal",
+      "Natural gas",
+      "Oil"
+    ]
+  },
+  {
+    "question": "What is the greenhouse effect?",
+    "correct": "Trapping of heat in Earth's atmosphere",
+    "wrong": [
+      "Growing plants in a glass house",
+      "Cooling of the oceans",
+      "Blocking sunlight"
     ]
   }
 ]
